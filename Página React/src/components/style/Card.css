@@ -1,0 +1,35 @@
+.bobesponja {
+    width: 120px;
+}
+
+.tarjeta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-image: url("../image/background.jpg"); */
+
+}
+
+.porta{
+    height: 180px;
+}
+
+.info {
+    text-align: justify;
+    padding: 30px;
+}
+
+.card{
+    margin: 0 0 20px 0;
+    padding: 0 10px 0 30px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
+
+
+
+.back{
+    background: rgb(66, 222, 66);
+}

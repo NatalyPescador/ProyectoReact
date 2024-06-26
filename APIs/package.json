@@ -1,0 +1,32 @@
+{
+  "name": "proyecto_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "SET NODE_ENV=test&& nodemon --exec mocha --require node_modules/@babel/register",
+    "start": "SET NODE_ENV=development&& nodemon --exec babel-node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "Faker": "npm:faker@^6.6.6",
+    "mysql2": "^3.10.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/register": "^7.24.6",
+    "chai": "^5.1.1",
+    "chai-http": "^5.0.0",
+    "faker": "^6.6.6",
+    "mocha": "^10.5.0",
+    "nodemon": "^3.1.4"
+  }
+}
